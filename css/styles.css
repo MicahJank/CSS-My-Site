@@ -1,13 +1,21 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
-h1 {
+h1.title {
     margin-top: 0;
+    padding-top: 100px;
+}
+
+p.title-sub {
+    margin-top: 0;
+    margin-bottom: 100px;
 }
 
 div.top-container {
    background-color: #b7fbff; 
+   position: relative;
 }
 
 div.middle-container {
@@ -24,3 +32,17 @@ div.bottom-container {
 .developer {
     text-decoration: underline;
 }
+
+
+.top-cloud {
+    position: absolute;
+    right: 30%;
+    top: 2%;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 30%;
+    bottom: 70%;
+}
+
