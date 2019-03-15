@@ -20,3 +20,7 @@ div.bottom-container {
     height: 200px;
     background-color: red;
 }
+
+.developer {
+    text-decoration: underline;
+}
