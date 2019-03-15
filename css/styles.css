@@ -6,6 +6,17 @@ h1 {
     margin-top: 0;
 }
 
-div {
+div.top-container {
    background-color: #b7fbff; 
+}
+
+div.middle-container {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+div.bottom-container {
+    width: 200px;
+    height: 200px;
+    background-color: red;
 }
