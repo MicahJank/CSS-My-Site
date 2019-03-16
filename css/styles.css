@@ -27,14 +27,9 @@ div.top-container {
 }
 
 div.middle-container {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
 }
+
 div.bottom-container {
-    width: 200px;
-    height: 200px;
-    background-color: red;
 }
 
 .developer {
@@ -51,6 +46,6 @@ div.bottom-container {
 .bottom-cloud {
     position: absolute;
     left: 30%;
-    bottom: 70%;
+    bottom: 65%;
 }
 
