@@ -1,9 +1,21 @@
+/* GENERAL STYLES */
 body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif; 
 }
 
+a {
+    color: #11999E;
+}
+
+h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #11999E;
+}
+
+/* TOP CONTAINER */
 h1.title {
     line-height: 1;
     font-size: 6rem;
@@ -23,28 +35,11 @@ p.title-sub {
     font-weight: normal;
 }
 
-h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    color: #11999E;
-}
 
 div.top-container {
    background-color: #dbf9ff; 
    position: relative;
 }
-
-a {
-    color: #11999E;
-}
-
-div.middle-container {
-}
-
-div.bottom-container {
-}
-
-
 
 .top-cloud {
     position: absolute;
@@ -58,10 +53,35 @@ div.bottom-container {
     bottom: 60%;
 }
 
-div img.skill-icon {
-    width: 50%;
+
+/* MIDDLE COTNAINER */
+div.middle-container {
 }
 
 div.profile img {
     width: 30%;
+}
+
+div.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+img.web-development-icon{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+img.responsive-design-icon {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+
+}
+
+/* BOTTOM CONTAINER */
+div.bottom-container {
 }
