@@ -90,13 +90,9 @@ div.skills h2 {
 
 div.skill-row {
     width: 50%;
-    margin: 50px auto 100px;
+    margin: 50px auto 200px;
     text-align: left;
     line-height: 2;
-}
-
-div.skill-row2 {
-    margin-top: 200px;
 }
 
 img.web-development-icon{
