@@ -9,9 +9,14 @@ a {
     color: #11999E;
 }
 
-h2, h3 {
+h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    color: #11999E;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
 
@@ -58,15 +63,40 @@ div.top-container {
 div.middle-container {
 }
 
+hr {
+    margin: 100px auto;
+    border: none;
+    border-top: 7px dotted #EAF6F6;
+    width: 100px;
+}
+
 div.profile img {
-    width: 30%;
+    margin: 50px auto;
+    width: 25%;
+}
+
+div.profile h2 {
+    margin-top: 0;
+}
+
+div.profile p {
+    width: 50%;
+    margin: auto;
+}
+
+div.skills h2 {
+    margin: 0;
 }
 
 div.skill-row {
     width: 50%;
-    margin: 100px auto;
+    margin: 50px auto 100px;
     text-align: left;
     line-height: 2;
+}
+
+div.skill-row2 {
+    margin-top: 200px;
 }
 
 img.web-development-icon{
@@ -79,9 +109,55 @@ img.responsive-design-icon {
     width: 25%;
     float: right;
     margin-left: 30px;
-
 }
+
+div.contact-me h3 {
+    margin: 40px auto;
+}
+
+.btn {
+    margin: 4rem;
+	background-color:#11999E;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:25px;
+	padding:13px 64px;
+	text-decoration:none;
+}
+.btn:hover {
+	background-color:rgb(24, 201, 207);
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
 
 /* BOTTOM CONTAINER */
 div.bottom-container {
+    background-color: #dbe9b7;
+}
+
+p.copyright {
+    margin: 0;
+    padding: 25px 25px 50px;
+}
+
+div.contact-links {
+    padding: 50px 25px 25px;
+}
+
+div a.footer-link {
+    padding: 20px;
+    text-decoration: none;
+}
+
+div a.footer-link:hover {
+    color: rgb(24, 215, 221);
+}
+
+div p.copyright {
+    color: #11999E;
 }
