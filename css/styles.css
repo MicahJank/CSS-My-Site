@@ -53,13 +53,13 @@ div.top-container {
 .top-cloud {
     position: absolute;
     right: 30%;
-    top: 5%;
+    top: 3%;
 }
 
 .bottom-cloud {
     position: absolute;
     left: 30%;
-    bottom: 60%;
+    bottom: 62%;
 }
 
 
@@ -98,6 +98,10 @@ div.skill-row {
     text-align: left;
 }
 
+div.skill-row2 {
+    margin-bottom: 100px;
+}
+
 img.web-development-icon{
     width: 25%;
     float: left;
@@ -112,6 +116,11 @@ img.responsive-design-icon {
 
 div.contact-me h3 {
     margin: 40px auto;
+}
+
+div.contact-me p {
+    width: 50%;
+    margin: auto;
 }
 
 .btn {
