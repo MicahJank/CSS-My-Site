@@ -115,23 +115,23 @@ img.responsive-design-icon {
 }
 
 div.contact-me h3 {
-    margin: 40px auto;
+    margin: 40px auto 0;
 }
 
 div.contact-me p {
     width: 50%;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .btn {
-    margin: 4rem;
+    margin: 2rem;
 	background-color:#11999E;
 	border-radius:10px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-size:25px;
-	padding:13px 64px;
+	padding:13px 75px;
 	text-decoration:none;
 }
 .btn:hover {
